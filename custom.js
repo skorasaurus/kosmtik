@@ -15,9 +15,9 @@ localizer.where('Layer').if({'Datasource.type': 'postgis'}).then({
 "Datasource.user": "skors",
 "Datasource.host": "localhost"
 });
-localizer.where('Layer').if({id: 'hillshade'}).then({'Datasource.file': '/home/skors/MapBox/project/shared/haiti-hillshade-80-3785.tif'});
-localizer.where('Layer').if({id: 'contour_line'}).then({'Datasource.file': '/home/skors/MapBox/project/shared/ontour-25m.shp'});
-localizer.where('Layer').if({id: 'land-high'}).then({'Datasource.file': '/home/skors/MapBox/project/shared/land-polygons-split-3857/land_polygons.shp'});
-localizer.where('Layer').if({id: 'land-low'}).then({'Datasource.file': '/home/skors/MapBox/project/shared/simplified-land-polygons-complete-3857/simplified_land_polygons.shp'});
+localizer.where('Layer').if({id: 'hillshade'}).then({'Datasource.file': '/home/skors/Documents/MapBox/project/shared/haiti-hillshade-80-3785.tif'});
+localizer.where('Layer').if({id: 'contour_line'}).then({'Datasource.file': '/home/skors/Documents/MapBox/project/shared/ontour-25m.shp'});
+localizer.where('Layer').if({id: 'land-high'}).then({'Datasource.file': '/home/skors/Documents/MapBox/project/shared/land-polygons-split-3857/land_polygons.shp'});
+localizer.where('Layer').if({id: 'land-low'}).then({'Datasource.file': '/home/skors/Documents/MapBox/project/shared/simplified-land-polygons-complete-3857/simplified_land_polygons.shp'});
 
 
